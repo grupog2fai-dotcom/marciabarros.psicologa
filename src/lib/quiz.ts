@@ -41,9 +41,9 @@ export const quizConfig = {
   phone: '5521995324120',
   title: 'Vamos encontrar um ponto de partida para a sua conversa?',
   intro:
-    'Você pode responder a três perguntas para organizar o primeiro contato. Depois, verá uma mensagem pronta e escolherá se quer levá-la ao WhatsApp.',
+    'Se não souber bem por onde começar, responda a três perguntas rápidas. No final, monto uma mensagem pronta para você revisar e decidir se quer me enviar pelo WhatsApp.',
   purpose:
-    'Aqui, suas respostas servem para iniciar uma conversa. A compreensão da sua história acontece no atendimento.',
+    'Suas respostas servem apenas para facilitar esse primeiro contato. Toda a escuta da sua história acontece nas nossas sessões.',
   privacy:
     'Nada é enviado automaticamente. Você revisa a mensagem antes de continuar.',
   question1: 'O que fez você buscar este espaço hoje?',
@@ -86,7 +86,7 @@ export const quizConfig = {
         },
       ],
       result:
-        'Você pode começar contando o que tem sido difícil nas suas relações. A proposta é compreender sua história e o espaço que suas necessidades ocupam nela.',
+        'Você pode começar contando o que tem sido difícil nas suas relações. Minha proposta é compreender a sua história e ajudar você a reconhecer o espaço que suas necessidades merecem ter.',
     },
     {
       id: 'autoestima',
@@ -260,7 +260,7 @@ export const quizConfig = {
         },
         {
           id: 'f4',
-          label: 'Conversar diretamente com a Márcia.',
+          label: 'Prefiro conversar diretamente.',
           message: 'Prefiro conversar diretamente com você.',
         },
         {
@@ -270,7 +270,7 @@ export const quizConfig = {
         },
       ],
       result:
-        'Você pode procurar atendimento mesmo sem saber explicar tudo agora. O primeiro contato também pode ajudar a entender como começar.',
+        'Você não precisa ter tudo claro antes de me procurar. Nossa primeira conversa serve justamente para te ajudar a entender por onde começar.',
     },
   ] as QuizTopic[],
   intents: [

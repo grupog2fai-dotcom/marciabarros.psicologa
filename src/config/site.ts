@@ -17,11 +17,13 @@ export const siteConfig = {
     heroDesktop: '/assets/hero-marcia-desktop.webp',
     heroMobile: '/assets/hero-marcia-mobile.jpg',
     aboutCutout: '/assets/marcia-sobre-transparente.webp',
+    aboutEnvironment: '/assets/marcia-sobre-ambiente.jpg',
     aboutFallback: '/assets/marcia-fechamento-mobile.jpg',
     onlineCare: '/assets/marcia-atendimento-online.jpg',
     closingDesktop: '/assets/marcia-fechamento-desktop.webp',
     closingMobile: '/assets/marcia-fechamento-mobile.jpg',
     logoOriginal: '/assets/logo-marcia-original.jpg',
+    logoMonogram: '/assets/logo-marcia-monograma.png',
   },
   alts: {
     hero: 'Márcia Barros, psicóloga clínica, em seu ambiente de trabalho.',

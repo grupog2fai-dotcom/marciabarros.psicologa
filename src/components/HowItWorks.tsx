@@ -4,17 +4,17 @@ const steps = [
   {
     number: '01',
     title: 'Primeiro contato',
-    text: 'Você chama a Márcia no WhatsApp, tira dúvidas e consulta a disponibilidade para agendar.',
+    text: 'Você me chama no WhatsApp, tira suas dúvidas e consulta os horários disponíveis para agendar.',
   },
   {
     number: '02',
     title: 'Primeira sessão',
-    text: 'É o momento de conversar sobre o que trouxe você até aqui e começar a compreender sua história e suas necessidades.',
+    text: 'É o momento de nos conhecermos: você me conta, no seu ritmo, o que trouxe você até aqui para começarmos a olhar para a sua história.',
   },
   {
     number: '03',
     title: 'Continuidade do cuidado',
-    text: 'A partir dos encontros, o processo vai sendo construído em conjunto. A frequência e os próximos passos são conversados com você.',
+    text: 'A partir dos encontros, vamos construindo o processo juntos, respeitando o seu momento e combinando a frequência ideal para você.',
   },
 ];
 
@@ -28,8 +28,8 @@ export const HowItWorks: React.FC = () => {
             Começar pode ser mais simples do que parece.
           </h2>
           <p className="body-text">
-            O primeiro passo é uma conversa para entender o atendimento e
-            combinar como seguir.
+            O primeiro passo é uma conversa tranquila para você entender como
+            funciona e combinarmos como seguir.
           </p>
         </div>
 
@@ -45,8 +45,8 @@ export const HowItWorks: React.FC = () => {
 
         <div className="how-footer">
           <p className="microtext">
-            Para saber valores, duração e disponibilidade, fale diretamente com
-            a Márcia.
+            Para saber valores, duração e disponibilidade, fale diretamente
+            comigo.
           </p>
           <a href="#primeiro-passo" className="section-link">
             <span>Encontre um ponto de partida para a conversa</span>

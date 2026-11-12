@@ -5,42 +5,42 @@ const faqItems = [
   {
     question: 'Preciso saber exatamente o que dizer?',
     answer:
-      'Não. Você pode começar pelo que consegue contar hoje. O atendimento oferece espaço para compreender sua história e organizar, em conjunto, aquilo que faz sentido cuidar.',
+      'Não. Você pode começar pelo que consegue colocar em palavras hoje. Meu papel é te ouvir com calma e te ajudar a organizar, juntos, o que faz sentido cuidar.',
   },
   {
     question: 'A terapia é apenas para quem está em crise?',
     answer:
-      'A psicoterapia também pode ser procurada por quem deseja compreender emoções, fortalecer o autoconhecimento e olhar com mais cuidado para suas relações e escolhas.',
+      'Não. Muitas pessoas me procuram justamente quando desejam compreender melhor suas emoções, fortalecer o autoconhecimento e cuidar com mais carinho das próprias relações e escolhas.',
   },
   {
     question: 'Que questões de relacionamento posso levar para a terapia?',
     answer:
-      'Você pode conversar sobre dependência emocional, insegurança, ciúmes, traição, relações abusivas e superação de términos. O atendimento considera sua história e o que faz sentido cuidar no seu processo.',
+      'Você pode trazer temas como dependência emocional, insegurança, ciúmes, traição, relações abusivas ou superação de términos. Eu acolho a sua história sem julgamentos e respeitando o seu momento.',
   },
   {
     question: 'O atendimento é online ou presencial?',
     answer:
-      'A Márcia realiza atendimento psicológico individual somente online, para adultos.',
+      'Meus atendimentos são individuais e exclusivamente online, voltados para adultos.',
   },
   {
     question: 'Como funciona a Terapia Cognitivo-Comportamental?',
     answer:
-      'A TCC considera a relação entre pensamentos, emoções e comportamentos. No processo, profissional e paciente trabalham em conjunto para compreender padrões e desenvolver formas de lidar com as dificuldades apresentadas.',
+      'Na TCC, olhamos juntos para a conexão entre o que você pensa, sente e faz. Trabalhamos em parceria para entender padrões que se repetem e construir caminhos mais saudáveis para lidar com as suas dificuldades.',
   },
   {
     question: 'Quanto custa e quanto dura cada sessão?',
     answer:
-      'Esses detalhes são informados diretamente pela Márcia. Você pode consultar valores, duração e disponibilidade no primeiro contato pelo WhatsApp.',
+      'Eu passo todas essas informações diretamente para você. É só me chamar no WhatsApp para consultar valores, duração das sessões e horários disponíveis.',
   },
   {
     question: 'Com que frequência acontecem as sessões?',
     answer:
-      'A frequência é conversada com a Márcia, considerando as necessidades do atendimento. Você pode tirar essa dúvida no contato inicial.',
+      'Combinamos a frequência juntos, considerando a sua rotina e o que faz sentido para o seu momento. Podemos alinhar isso já na nossa primeira conversa.',
   },
   {
     question: 'Preciso responder ao roteiro para entrar em contato?',
     answer:
-      'Não. O roteiro é opcional e serve apenas para ajudar você a organizar o que gostaria de conversar. Você pode chamar a Márcia diretamente pelo WhatsApp.',
+      'Não. O roteiro é totalmente opcional e serve apenas como apoio se você não souber por onde começar. Se preferir, pode me chamar direto no WhatsApp.',
   },
 ];
 
@@ -54,8 +54,8 @@ export const Faq: React.FC = () => {
             Algumas dúvidas podem aparecer antes do primeiro contato.
           </h2>
           <p className="body-text">
-            Você pode entender o básico por aqui e conversar com a Márcia sobre
-            o que ainda precisar.
+            Você pode tirar as principais dúvidas por aqui e conversar
+            diretamente comigo sobre o que ainda precisar.
           </p>
 
           <div style={{ marginTop: '28px' }}>

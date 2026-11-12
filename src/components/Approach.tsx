@@ -137,15 +137,14 @@ export const Approach: React.FC = () => {
             Acolhimento para falar. Clareza para compreender.
           </h2>
           <p className="body-text">
-            Na Terapia Cognitivo-Comportamental, olhamos para a relação entre
-            pensamentos, emoções e atitudes. Esse olhar ajuda a compreender
-            padrões e a construir, em conjunto, formas de lidar com o que você
-            está vivendo.
+            Trabalho com a Terapia Cognitivo-Comportamental (TCC), olhando junto
+            com você para a conexão entre o que você pensa, sente e faz. Assim,
+            vamos compreendendo padrões que se repetem e construindo caminhos
+            mais leves para lidar com o que você está vivendo.
           </p>
           <p className="body-text">
-            A escuta e as estratégias utilizadas no processo consideram sua
-            história, seus valores e as necessidades que aparecem ao longo dos
-            encontros.
+            A escuta e as estratégias que utilizo nos atendimentos sempre
+            respeitam a sua história, os seus valores e o seu momento.
           </p>
 
           <div style={{ marginTop: '28px' }}>
@@ -171,7 +170,7 @@ export const Approach: React.FC = () => {
 
         <div>
           <p className="approach-right-intro">
-            No processo terapêutico, podemos trabalhar para:
+            Nos nossos encontros, posso ajudar você a:
           </p>
           <div className="approach-grid">
             {possibilities.map((item) => (

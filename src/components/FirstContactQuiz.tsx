@@ -28,7 +28,7 @@ class QuizErrorBoundary extends React.Component<
         <div className="quiz-card" role="alert">
           <p className="body-text" style={{ marginBottom: '20px' }}>
             Não foi possível carregar esta parte da página. Você ainda pode
-            falar com a Márcia pelo WhatsApp.
+            falar comigo pelo WhatsApp.
           </p>
           <a
             href={siteConfig.whatsappUrls.hero}
@@ -36,7 +36,7 @@ class QuizErrorBoundary extends React.Component<
             rel="noopener noreferrer"
             className="btn-primary"
           >
-            Conversar com a Márcia
+            Quero conversar
           </a>
         </div>
       );

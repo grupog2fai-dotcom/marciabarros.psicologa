@@ -3,7 +3,7 @@ import { Brand } from './Brand';
 import { siteConfig } from '../config/site';
 
 const navItems = [
-  { label: 'Sobre', href: '#sobre' },
+  { label: 'Sobre mim', href: '#sobre' },
   { label: 'Abordagem', href: '#abordagem' },
   { label: 'Atendimento', href: '#atendimento' },
   { label: 'Primeiro passo', href: '#primeiro-passo' },
@@ -57,7 +57,7 @@ export const Header: React.FC = () => {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Conversar com a Márcia
+              Quero conversar
             </a>
           </div>
 

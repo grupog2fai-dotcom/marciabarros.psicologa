@@ -55,8 +55,8 @@ export const Identification: React.FC = () => {
 
         <div className="identification-footer">
           <p className="body-text">
-            Você não precisa se reconhecer em tudo isso para procurar apoio. A
-            terapia começa pela sua história.
+            Você não precisa se reconhecer em cada ponto aqui para buscar apoio.
+            A terapia começa exatamente pelo que faz sentido na sua história.
           </p>
           <a href="#primeiro-passo" className="section-link">
             <span>Quero encontrar um ponto de partida</span>

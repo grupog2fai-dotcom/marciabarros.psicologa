@@ -11,10 +11,10 @@ export const Brand: React.FC<BrandProps> = ({ variant = 'header' }) => {
       <div>
         <div className="footer-logo-frame">
           <img
-            src={siteConfig.assets.logoOriginal}
+            src={siteConfig.assets.logoMonogram}
             alt={siteConfig.alts.logo}
-            width={1254}
-            height={1254}
+            width={727}
+            height={522}
             loading="lazy"
           />
         </div>
@@ -60,21 +60,14 @@ export const Brand: React.FC<BrandProps> = ({ variant = 'header' }) => {
 
   return (
     <a href="#inicio" className="brand-link">
-      {/* Enquadramento técnico do monograma original MB sem redesenhar as letras (x=220, y=225, w=800, h=480) */}
       <span className="brand-monogram" aria-hidden="true">
-        <svg
-          viewBox="220 225 800 480"
-          width="100%"
-          height="100%"
-          preserveAspectRatio="xMidYMid slice"
-          role="img"
-        >
-          <image
-            href={siteConfig.assets.logoOriginal}
-            width="1254"
-            height="1254"
-          />
-        </svg>
+        <img
+          src={siteConfig.assets.logoMonogram}
+          alt=""
+          width={727}
+          height={522}
+          decoding="async"
+        />
       </span>
       <span className="brand-text">
         <span className="brand-name">{siteConfig.name}</span>

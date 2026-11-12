@@ -62,25 +62,17 @@ export const AboutMarcia: React.FC = () => {
           </div>
         </div>
 
-        {/* Coluna 2: Retrato com transparência real integrado ao fundo */}
+        {/* Coluna 2: Imagem editorial acolhedora do ambiente */}
         <div className="about-portrait-col">
           <div className="about-portrait-frame">
-            <picture>
-              <source
-                srcSet={siteConfig.assets.aboutCutout}
-                type="image/webp"
-                width={1122}
-                height={1402}
-              />
-              <img
-                src={siteConfig.assets.aboutFallback}
-                alt={siteConfig.alts.about}
-                width={1122}
-                height={1402}
-                loading="lazy"
-                decoding="async"
-              />
-            </picture>
+            <img
+              src={siteConfig.assets.aboutEnvironment}
+              alt={siteConfig.alts.about}
+              width={819}
+              height={1024}
+              loading="lazy"
+              decoding="async"
+            />
           </div>
         </div>
 

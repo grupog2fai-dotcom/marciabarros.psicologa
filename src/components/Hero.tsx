@@ -15,9 +15,10 @@ export const Hero: React.FC = () => {
           </h1>
 
           <p className="body-text">
-            Um espaço de escuta para compreender suas emoções, cuidar da
-            autoestima e olhar com mais clareza para os seus relacionamentos.
-            Com acolhimento, base científica e respeito à sua história.
+            Um espaço seguro de escuta para você compreender suas emoções,
+            fortalecer sua autoestima e olhar com mais clareza para os seus
+            relacionamentos — com acolhimento, base científica e respeito ao seu
+            tempo.
           </p>
 
           <div className="hero-credentials">
@@ -34,7 +35,7 @@ export const Hero: React.FC = () => {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Quero conversar com a Márcia
+              Quero conversar
             </a>
             <a href="#como-funciona" className="btn-secondary">
               Entender como funciona
@@ -42,8 +43,8 @@ export const Hero: React.FC = () => {
           </div>
 
           <p className="microtext" style={{ marginTop: '14px' }}>
-            Você pode começar com uma dúvida. O primeiro contato é pelo
-            WhatsApp.
+            Você pode começar com uma dúvida, sem compromisso. O primeiro
+            contato é direto comigo pelo WhatsApp.
           </p>
 
           <div className="hero-info-line" aria-label="Informações do atendimento">

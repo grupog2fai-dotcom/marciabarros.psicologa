@@ -16,7 +16,7 @@ const practicalLines = [
   },
   {
     term: 'Orientações',
-    desc: 'Dúvidas sobre horários, valores e funcionamento podem ser conversadas pelo WhatsApp.',
+    desc: 'Dúvidas sobre horários, valores e funcionamento você tira diretamente comigo pelo WhatsApp.',
   },
 ];
 
@@ -31,14 +31,15 @@ export const OnlineCare: React.FC = () => {
             Atendimento online, com espaço para a sua história.
           </h2>
           <p className="body-text">
-            O cuidado psicológico pode fazer parte da sua rotina sem o
-            deslocamento até um consultório. A Márcia realiza atendimento
-            individual somente online, para adultos.
+            Você pode cuidar da sua saúde emocional sem precisar enfrentar
+            deslocamentos até um consultório. Meus atendimentos são individuais,
+            somente online, para adultos.
           </p>
           <p className="body-text">
-            Para participar, tenha um dispositivo com acesso à internet e
-            escolha um ambiente em que possa conversar com privacidade. Os
-            detalhes de acesso são combinados diretamente com a profissional.
+            Para participar, basta um dispositivo com acesso à internet e um
+            lugar reservado onde você se sinta à vontade para falar com
+            privacidade. Todos os detalhes de acesso são combinados diretamente
+            comigo.
           </p>
         </div>
 
@@ -86,7 +87,7 @@ export const OnlineCare: React.FC = () => {
               Quero saber sobre o atendimento online
             </a>
             <p className="microtext">
-              Consulte a disponibilidade diretamente com a Márcia.
+              Consulte minha disponibilidade diretamente comigo.
             </p>
           </div>
         </div>

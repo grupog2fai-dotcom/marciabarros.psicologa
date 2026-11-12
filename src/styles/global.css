@@ -375,19 +375,31 @@ footer[id] {
 }
 
 .brand-monogram {
-  width: 44px;
-  height: 30px;
-  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 34px;
+  padding: 4px 5px;
+  border-radius: 7px;
   overflow: hidden;
   border: 1px solid var(--line);
-  background-color: #FCF8F5;
+  background-color: #EFE6DC;
   flex-shrink: 0;
+}
+
+.brand-monogram img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 @media (min-width: 640px) {
   .brand-monogram {
-    width: 56px;
-    height: 36px;
+    width: 58px;
+    height: 40px;
+    padding: 4px 6px;
     border-radius: 8px;
   }
 }
@@ -915,20 +927,19 @@ footer[id] {
   position: relative;
   width: 100%;
   max-width: 380px;
-  padding-top: 16px;
-  background: radial-gradient(
-    circle at 50% 42%,
-    rgba(250, 247, 242, 0.95) 0%,
-    rgba(243, 236, 228, 0) 72%
-  );
-  border-bottom: 2px solid var(--clay);
+  border-radius: 28px 28px 18px 18px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background-color: var(--linen);
+  box-shadow: 0 18px 40px -24px rgba(45, 50, 43, 0.22);
 }
 
 .about-portrait-frame img {
   width: 100%;
   height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
   display: block;
-  margin-inline: auto;
 }
 
 .about-quote-box {
@@ -1537,11 +1548,12 @@ details[open] .faq-icon {
 }
 
 .footer-logo-frame {
-  width: 188px;
+  width: 156px;
+  padding: 18px 22px;
   border-radius: 16px;
   overflow: hidden;
   border: 1px solid var(--line);
-  background-color: #FCF8F5;
+  background-color: #EFE6DC;
   margin-bottom: 16px;
 }
 

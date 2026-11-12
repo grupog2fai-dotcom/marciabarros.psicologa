@@ -93,7 +93,7 @@ export const QuizPrivacyDialog: React.FC<QuizPrivacyDialogProps> = ({
       </p>
       <p className="body-text">
         Para esclarecer dúvidas sobre o contato e o atendimento, fale
-        diretamente com a Márcia pelo WhatsApp (21) 99532-4120.
+        diretamente comigo pelo WhatsApp (21) 99532-4120.
       </p>
 
       <div style={{ marginTop: '24px', display: 'flex', justifyContent: 'flex-end' }}>

@@ -17,7 +17,7 @@ export const FinalContact: React.FC = () => {
             difícil colocar em palavras.
           </p>
           <p className="body-text">
-            Se fizer sentido para você, a Márcia pode apresentar como funciona o
+            Se fizer sentido para você, eu posso te apresentar como funciona o
             atendimento e conversar sobre o próximo passo.
           </p>
 
@@ -28,7 +28,7 @@ export const FinalContact: React.FC = () => {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Quero conversar com a Márcia
+              Quero conversar
             </a>
             <a href="#como-funciona" className="btn-secondary">
               Rever como funciona
