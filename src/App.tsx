@@ -11,22 +11,32 @@ import { FirstContactQuiz } from './components/FirstContactQuiz';
 import { Faq } from './components/Faq';
 import { FinalContact } from './components/FinalContact';
 import { Footer } from './components/Footer';
+import { NotFound } from './components/NotFound';
 
 export const App: React.FC = () => {
+  const pathname = typeof window !== 'undefined' ? window.location.pathname : '/';
+  const isHome = pathname === '/' || pathname === '/index.html';
+
   return (
     <>
       <Header />
       <main id="conteudo-principal">
-        <Hero />
-        <PrinciplesMarquee />
-        <Identification />
-        <AboutMarcia />
-        <Approach />
-        <HowItWorks />
-        <OnlineCare />
-        <FirstContactQuiz />
-        <Faq />
-        <FinalContact />
+        {isHome ? (
+          <>
+            <Hero />
+            <PrinciplesMarquee />
+            <Identification />
+            <AboutMarcia />
+            <Approach />
+            <HowItWorks />
+            <OnlineCare />
+            <FirstContactQuiz />
+            <Faq />
+            <FinalContact />
+          </>
+        ) : (
+          <NotFound />
+        )}
       </main>
       <Footer />
     </>

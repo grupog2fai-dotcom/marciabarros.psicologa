@@ -59,7 +59,7 @@ export const Brand: React.FC<BrandProps> = ({ variant = 'header' }) => {
   }
 
   return (
-    <a href="#inicio" className="brand-link">
+    <a href="/#inicio" className="brand-link">
       <span className="brand-monogram" aria-hidden="true">
         <img
           src={siteConfig.assets.logoMonogram}

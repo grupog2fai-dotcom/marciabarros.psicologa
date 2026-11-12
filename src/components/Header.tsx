@@ -3,10 +3,10 @@ import { Brand } from './Brand';
 import { siteConfig } from '../config/site';
 
 const navItems = [
-  { label: 'Sobre mim', href: '#sobre' },
-  { label: 'Abordagem', href: '#abordagem' },
-  { label: 'Atendimento', href: '#atendimento' },
-  { label: 'Primeiro passo', href: '#primeiro-passo' },
+  { label: 'Sobre mim', href: '/#sobre' },
+  { label: 'Abordagem', href: '/#abordagem' },
+  { label: 'Atendimento', href: '/#atendimento' },
+  { label: 'Primeiro passo', href: '/#primeiro-passo' },
 ];
 
 export const Header: React.FC = () => {

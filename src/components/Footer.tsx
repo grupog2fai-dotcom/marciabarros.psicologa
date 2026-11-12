@@ -18,22 +18,22 @@ export const Footer: React.FC = () => {
             <h2 className="footer-heading">Navegação</h2>
             <ul className="footer-list">
               <li>
-                <a href="#sobre" className="footer-link">
+                <a href="/#sobre" className="footer-link">
                   Sobre mim
                 </a>
               </li>
               <li>
-                <a href="#como-funciona" className="footer-link">
+                <a href="/#como-funciona" className="footer-link">
                   Como funciona
                 </a>
               </li>
               <li>
-                <a href="#primeiro-passo" className="footer-link">
+                <a href="/#primeiro-passo" className="footer-link">
                   Seu primeiro passo
                 </a>
               </li>
               <li>
-                <a href="#duvidas" className="footer-link">
+                <a href="/#duvidas" className="footer-link">
                   Perguntas frequentes
                 </a>
               </li>

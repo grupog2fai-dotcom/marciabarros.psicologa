@@ -1633,3 +1633,77 @@ details[open] .faq-icon {
     scroll-behavior: auto;
   }
 }
+
+/* Página 404 personalizada */
+.not-found-section {
+  min-height: 62vh;
+  display: flex;
+  align-items: center;
+}
+
+.not-found-card {
+  max-width: 720px;
+  margin-inline: auto;
+  padding: 36px 24px;
+  background-color: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-feature);
+  box-shadow: 0 20px 48px -30px rgba(45, 50, 43, 0.18);
+}
+
+@media (min-width: 640px) {
+  .not-found-card {
+    padding: 52px 48px;
+  }
+}
+
+.not-found-title {
+  font-family: var(--font-serif);
+  font-size: clamp(32px, 5vw, 50px);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin: 0 0 18px 0;
+}
+
+.not-found-title em {
+  font-style: italic;
+  font-weight: 500;
+  color: var(--green);
+}
+
+.not-found-desc {
+  max-width: 58ch;
+  margin-bottom: 30px;
+}
+
+.not-found-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.not-found-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+}
+
+.not-found-links a {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--green);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--clay);
+  transition: color var(--transition-fast), text-decoration-color var(--transition-fast);
+}
+
+.not-found-links a:hover {
+  color: var(--green-hover);
+  text-decoration-color: var(--green);
+}
