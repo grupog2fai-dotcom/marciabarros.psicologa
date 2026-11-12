@@ -67,17 +67,17 @@ export const Header: React.FC = () => {
             className="mobile-menu-btn"
             aria-expanded={menuOpen}
             aria-controls="menu-navegacao-movel"
-            aria-label={menuOpen ? 'Fechar menu' : 'Abrir menu'}
+            aria-label={menuOpen ? 'Fechar menu de navegação' : 'Abrir menu de navegação'}
             onClick={() => setMenuOpen((prev) => !prev)}
           >
-            <span>{menuOpen ? 'Fechar menu' : 'Abrir menu'}</span>
+            <span className="mobile-menu-label">{menuOpen ? 'Fechar' : 'Menu'}</span>
             <svg
-              width="20"
-              height="20"
+              width="18"
+              height="18"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              strokeWidth="1.75"
+              strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
               aria-hidden="true"

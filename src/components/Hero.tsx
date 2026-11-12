@@ -47,11 +47,18 @@ export const Hero: React.FC = () => {
           </p>
 
           <div className="hero-info-line" aria-label="Informações do atendimento">
-            <span>Atendimento individual</span>
-            <span className="hero-dot" aria-hidden="true" />
-            <span>Somente online</span>
-            <span className="hero-dot" aria-hidden="true" />
-            <span>Para adultos</span>
+            <span className="hero-info-item">
+              <span className="hero-dot" aria-hidden="true" />
+              <span>Atendimento individual</span>
+            </span>
+            <span className="hero-info-item">
+              <span className="hero-dot" aria-hidden="true" />
+              <span>Somente online</span>
+            </span>
+            <span className="hero-info-item">
+              <span className="hero-dot" aria-hidden="true" />
+              <span>Para adultos</span>
+            </span>
           </div>
         </div>
 
