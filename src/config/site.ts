@@ -27,7 +27,7 @@ export const siteConfig = {
   },
   alts: {
     hero: 'Márcia Barros, psicóloga clínica, em seu ambiente de trabalho.',
-    about: 'Retrato de Márcia Barros, psicóloga clínica.',
+    about: 'Ambiente acolhedor de atendimento psicológico online com livros, caderno de anotações e xícara de café.',
     online: 'Márcia Barros utilizando um notebook em seu ambiente de trabalho.',
     closing: 'Márcia Barros, psicóloga clínica, em seu ambiente de trabalho.',
     logo: 'Logo de Márcia Barros, Psicóloga Clínica, CRP 05/75399.',

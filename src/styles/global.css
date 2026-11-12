@@ -378,13 +378,8 @@ footer[id] {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 46px;
-  height: 34px;
-  padding: 4px 5px;
-  border-radius: 7px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  background-color: #EFE6DC;
+  width: 44px;
+  height: 32px;
   flex-shrink: 0;
 }
 
@@ -397,10 +392,8 @@ footer[id] {
 
 @media (min-width: 640px) {
   .brand-monogram {
-    width: 58px;
+    width: 56px;
     height: 40px;
-    padding: 4px 6px;
-    border-radius: 8px;
   }
 }
 
@@ -1548,12 +1541,7 @@ details[open] .faq-icon {
 }
 
 .footer-logo-frame {
-  width: 156px;
-  padding: 18px 22px;
-  border-radius: 16px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  background-color: #EFE6DC;
+  width: 132px;
   margin-bottom: 16px;
 }
 
