@@ -1,0 +1,33 @@
+:root {
+  /* Paleta oficial — Seção 4 */
+  --linen: #FAF7F2;
+  --paper: #FFFEFB;
+  --surface: #F3ECE4;
+  --quiz-surface: #EEE7DB;
+  --green: #344535;
+  --green-hover: #273528;
+  --olive: #5A6B4F;
+  --clay: #AF7B65;
+  --ink: #2D322B;
+  --muted: #655F57;
+  --line: #DED5C8;
+  --selected: #EBF0E7;
+
+  /* Tipografia */
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Manrope", Arial, sans-serif;
+
+  /* Containers e espaçamentos */
+  --container-main: 1180px;
+  --container-reading: 720px;
+  --container-quiz: 1080px;
+
+  /* Raios */
+  --radius-card: 18px;
+  --radius-feature: 28px;
+  --radius-pill: 999px;
+
+  /* Transições discretas */
+  --transition-fast: 160ms ease;
+  --transition-section: 420ms ease;
+}
